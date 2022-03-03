@@ -19,6 +19,7 @@ struct ContentView: View {
             Form {
                 Section {
                     TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                        .keyboardType(.decimalPad)
                 }
 
                 Section {
