@@ -76,3 +76,12 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+/** Note
+ 1. @State property trigger UI refresh when updatead
+ 2. Use Form to automatically create more intuitive UI layout
+ 3. Use Section to group UI
+ 4.  the id: .\self  in ForEach { } tells the compiler to use the object itself as unique identifier
+ 5. @FocusState is similar to FirstResponder, and is used to determine which UI is in focus
+ 6. use  NavigationView's .toolBar { ToolbarItemGroup } to add custom view on keyboards and other location on screen
+**/
